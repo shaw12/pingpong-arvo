@@ -1,38 +1,114 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: hsl(0, 0%, 98%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app{
+  
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 520px;
+  margin: auto;
+  min-height: 100vh;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.form{
+  background-color: #fff;
+  display: flex;
+  border: 2px solid #d3d3d3;
+  border-radius: 8px;
+  flex-direction: column;
+  color: hsl(0, 100%, 74%);
+  padding: 30px 50px;
+  font-size: 12px;
+}
+header{
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff;
+  padding: 20px 20px 10px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(to bottom right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+label{
+  margin: 40px 0 10px;
+  color: #222;
+  font-size: 18px;
+}
+.input{
+  padding: 8px 14px;
+  font-size: 16px;
+  margin-bottom: 6px;
+  border: 1px solid #d3d3d3;
+}
+button{
+  margin-top: 40px;
+  padding: 8px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  background: hsl(220, 98%, 61%);
+}
+.input:focus,
+button:focus{
+  outline: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.details{
+  width: 70%;
+  
+  background-color: #fff;
+}
+.card{
+  padding: 60px 50px 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 15px;
+}
+.body{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+h2{
+  font-size: 32px;
+}
+.body h1{
+  font-size: 42px;
+}
+.head button{
+  margin-top: 0px;
+}
+.line{
+  width: 90%;
+  height: 5px;
+  border-radius: 4px;
+  margin: auto;
+  background-color: hsl(220, 98%, 61%);
+  margin-top: 30px;
+}
+.winnerSec{
+  padding: 25px 60px ;
+}
+.winnerSec .body{
+  margin-bottom: 20px;
+}
+.win__body{
+  justify-content: space-between;
+}
+.win{
+  font-weight: bolder;
 }
