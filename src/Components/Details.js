@@ -6,7 +6,7 @@ import { TrackContext } from '../TrackContext';
 
 function Details() {
 
-    const { names, setNames } = useContext(TrackContext)
+    const { names, setNames, setWinOne, setWinTwo } = useContext(TrackContext)
 
     const history = useHistory()
     console.log("cccc", names)
@@ -28,6 +28,8 @@ function Details() {
                 console.log(values)
                 
                 setNames(values)
+                setWinOne(0)
+                setWinTwo(0)
                 
                 history.push('/track')
             }}

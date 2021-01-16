@@ -9,14 +9,12 @@ body{
   background-color: hsl(0, 0%, 98%);
 }
 .app{
-  
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 520px;
+  width: 480px;
   margin: auto;
-  min-height: 100vh;
-  
+  min-height: 100vh;  
 }
 
 .form{
@@ -50,7 +48,7 @@ label{
 }
 button{
   margin-top: 40px;
-  padding: 8px;
+  padding: 12px;
   color: #fff;
   border: none;
   border-radius: 5px;

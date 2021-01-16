@@ -2,7 +2,7 @@
 
 - When you will open the application the Screen appears on which you have to write the Two Player names to move forward.
 
-- After writing names nn clicking `Continue` button, if the form  validates then it'll navigate to other screen otherwise it shows error.
+- After writing names on clicking `Continue` button, if the form  validates then it'll navigate to other screen otherwise it will show error.
 
 - At second screen you can increase the value of win by simply click on `Add Win` and can change result.
 
@@ -17,3 +17,5 @@
 - So, the result appears on the basis of their wins.
 
 - At second(Tracking) screen, on hitting reload it holds the current values.
+
+- Improve UI.
